@@ -8,4 +8,4 @@ WORKDIR /home/site/wwwroot
 ADD . /home/site/wwwroot
 
 EXPOSE 8000
-CMD ["python", "/code/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "/home/site/wwwroot/manage.py", "runserver", "0.0.0.0:8000"]
