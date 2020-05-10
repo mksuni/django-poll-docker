@@ -83,7 +83,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'HOST': 'sumuth-pgserver.postgres.database.azure.com',
-        'NAME': 'djangopolldb',
+        'NAME': 'postgres',
         'USER': os.environ.get('SECRET_USERNAME')+'@sumuth-pgserver',
         'PASSWORD': os.environ.get('SECRET_PASSWORD'),
     }
