@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'sumuth-pgserver.postgres.database.azure.com',
         'NAME': 'postgres',
-        'USER': os.environ.get('SECRET_USERNAME')+'@sumuth-pgserver',
+        'USER': os.environ.get('SECRET_USERNAME'),
         'PASSWORD': os.environ.get('SECRET_PASSWORD'),
     }
 }
